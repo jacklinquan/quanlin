@@ -1,0 +1,110 @@
+# Project information
+site_name: Quan Lin
+# site_url: https://
+site_author: Quan Lin
+site_description: >-
+  A blog site on "Read the Docs".
+
+# Repository
+repo_name: quanlin
+repo_url: https://github.com/jacklinquan/quanlin
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2021 Quan Lin
+
+# Configuration
+theme:
+  name: material
+
+  # Default values, taken from mkdocs_theme.yml
+  # language: en
+  # features:
+    # - navigation.instant
+    # - navigation.sections
+    # - navigation.tabs
+  # palette:
+    # scheme: default
+    # primary: indigo
+    # accent: indigo
+  # font:
+    # text: Roboto
+    # code: Roboto Mono
+  # favicon: assets/favicon.png
+  # icon:
+    # logo: logo
+
+# Plugins
+plugins:
+  - search
+  - awesome-pages
+  - mermaid2:
+      version: 8.6.4
+  # - macros:
+      # module_name: docs/scripts/macros_script
+  # - mkapi
+  # - minify:
+      # minify_html: true
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/jacklinquan
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.progressbar
+  - pymdownx.saneheaders
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      base_path: docs
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.6.4/dist/mermaid.min.js
+
+# Page tree
+nav:
+  - Home: index.md
+  - ... | blog/**
+
+# Google Analytics
+# google_analytics:
+  # - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+  # - auto
