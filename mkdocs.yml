@@ -31,7 +31,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/images/favicon_LQ_48x48.png
-  logo: assets/images/logo_LQ_20210322.svg
+  logo: assets/images/logo_LQ_20210326.svg
   # icon:
     # logo: logo
 
@@ -69,7 +69,7 @@ markdown_extensions:
   - meta
   - md_in_html
   - toc:
-      permalink: "&#128279;"
+      permalink: "&sect;"
       toc_depth: 4
   - pymdownx.arithmatex:
       generic: true

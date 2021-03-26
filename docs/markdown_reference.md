@@ -216,6 +216,8 @@ Characters can be escaped are: `\`, `` ` ``, `*`, `_`, `{}`, `[]`, `<>`, `()`, `
 
 To create a heading, add hash signs `#` and a space in front of a word or phrase.
 The number of hash signs you use should correspond to the heading level.
+Alternatively, on the line below the text, add any number of `==` characters for
+heading level 1 or `--` characters for heading level 2.
 
 !!! example
 
@@ -223,8 +225,14 @@ The number of hash signs you use should correspond to the heading level.
 
     ``` markdown
     # Heading level 1
+    
+    Another Heading level 1
+    =======================
 
     ## Heading level 2
+    
+    Another Heading level 2
+    -----------------------
 
     ### Heading level 3
 
@@ -238,7 +246,9 @@ The number of hash signs you use should correspond to the heading level.
     *Result*:
 
     <h1>Heading level 1</h1>
+    <h1>Another heading level 1</h1>
     <h2>Heading level 2</h2>
+    <h2>Another heading level 2</h2>
     <h3>Heading level 3</h3>
     <h4>Heading level 4</h4>
     <h5>Heading level 5</h5>

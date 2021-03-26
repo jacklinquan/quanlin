@@ -6,7 +6,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1024"
@@ -15,21 +14,9 @@
    version="1.1"
    id="svg8"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
-   sodipodi:docname="logo_LQ_20210322.svg">
+   sodipodi:docname="logo_LQ_20210326.svg">
   <defs
      id="defs2">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient2919-0">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop2915" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0.80000001"
-         offset="1"
-         id="stop2917" />
-    </linearGradient>
     <linearGradient
        id="linearGradient2895"
        osb:paint="solid">
@@ -38,15 +25,6 @@
          offset="0"
          id="stop2893" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2919-0"
-       id="linearGradient2921"
-       x1="0"
-       y1="3870.2363"
-       x2="3870.2363"
-       y2="0"
-       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -56,7 +34,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35355339"
-     inkscape:cx="-48.402062"
+     inkscape:cx="304.91742"
      inkscape:cy="503.40537"
      inkscape:document-units="px"
      inkscape:current-layer="g63"
@@ -95,7 +73,7 @@
        inkscape:export-ydpi="300">
       <path
          id="rect10"
-         style="fill:url(#linearGradient2921);stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+         style="fill:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
          d="M 967.55859,0 C 431.53088,0 0,431.53088 0,967.55859 v 967.55861 967.5605 967.5586 h 967.55859 967.55861 967.5605 c 536.0278,0 967.5586,-431.5308 967.5586,-967.5586 V 967.55859 0 h -967.5586 z"
          transform="scale(0.26458333)" />
       <g
