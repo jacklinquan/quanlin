@@ -23,25 +23,32 @@ theme:
     # - navigation.instant
     # - navigation.sections
     # - navigation.tabs
-  # palette:
-    # scheme: default
-    # primary: indigo
-    # accent: indigo
-  # font:
-    # text: Roboto
-    # code: Roboto Mono
-  # favicon: assets/favicon.png
+  palette:
+    scheme: default
+    primary: indigo
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon_LQ_48x48.png
+  logo: assets/images/logo_LQ_20210322.svg
   # icon:
     # logo: logo
 
 # Plugins
 plugins:
   - search
+  # - redirects:
+      # redirect_maps:
+        # 'index.md': 'https://quanlin.readthedocs.io/en/latest/'
+        # 'old.md': 'new.md'
+        # 'old/file.md': 'new/file.md'
+        # 'some_file.md': 'http://external.url.com/foobar'
   - awesome-pages
   - mermaid2:
       version: 8.6.4
-  # - macros:
-      # module_name: docs/scripts/macros_script
+  - macros:
+      module_name: docs/scripts/macros_script
   # - mkapi
   # - minify:
       # minify_html: true
@@ -62,7 +69,8 @@ markdown_extensions:
   - meta
   - md_in_html
   - toc:
-      permalink: true
+      permalink: "&#128279;"
+      toc_depth: 4
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
@@ -78,7 +86,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink
   - pymdownx.mark
-  - pymdownx.progressbar
   - pymdownx.saneheaders
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -94,14 +101,18 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_css:
-  - assets/stylesheets/extra.css
+  - assets/stylesheets/my_extra.css
 
 extra_javascript:
+  - assets/javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/mermaid@8.6.4/dist/mermaid.min.js
 
 # Page tree
 nav:
   - Home: index.md
+  - markdown_reference.md
   - ... | blog/**
 
 # Google Analytics

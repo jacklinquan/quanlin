@@ -1,5 +1,5 @@
-# Build A Blog on "Read the Docs"
+# Build a blog on "Read the Docs"
 
-Tags: Blog
+:label:: `blog`
 
 To be continued.
