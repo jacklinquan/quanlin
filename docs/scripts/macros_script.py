@@ -89,13 +89,3 @@ def youtube(src, width=640, height=360, frameborder=0):
         ></iframe>'
 
     return iframe_tmpl.format(width, height, src, frameborder)
-
-# https://youtu.be/5W3WvXAmDJc?
-
-# https://youtu.be/5W3WvXAmDJc?list=TLGGw0L_b0NL1pUyNjAzMjAyMQ&t=1
-
-# https://youtu.be/5W3WvXAmDJc?list=TLGGw0L_b0NL1pUyNjAzMjAyMQ&t=113
-
-# https://www.youtube.com/watch?v=DFp_T-H3eRc
-
-# https://youtu.be/DFp_T-H3eRc?t=51
