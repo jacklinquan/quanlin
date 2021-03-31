@@ -1,6 +1,7 @@
 # Setup a Python study environment on Windows
 
-:label: : `powershell` `python` `virtual environment` `thonny`
+:material-tag-multiple: :
+`powershell` `python` `virtual environment` `thonny`
 
 
 ## PowerShell
