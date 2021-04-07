@@ -29,7 +29,7 @@ pip --version
 ## Virtual environment for study
 
 - Use `venv` module to make a virtual environmnet and `cd` to it:
-(e.g. `PATH_TO_VENV = C:\venvs\venv37_thonny`)
+(e.g. `PATH_TO_VENV = C:\venvs\venv37_study`)
 ``` powershell
 python -m venv PATH_TO_VENV
 cd PATH_TO_VENV
@@ -42,7 +42,14 @@ start PATH_TO_POWERSHELL\pwsh.exe -NoExit PATH_TO_VENV\Scripts\Activate.ps1
 ```
 
 
-## Thonny
+## Thonny (Optional)
+
+[Thonny][thonny_link] is a beginner friendly Python IDE. It has a lot of features
+that help you understand how a Python program work. It is also useful for connecting
+ESP32 development boards to study [MicroPython][micropython_link].
+
+  [thonny_link]: https://thonny.org/
+  [micropython_link]: https://micropython.org/
 
 - Run `powershell.bat` and in the virtual environment use `pip` to install Thonny:
 ``` powershell

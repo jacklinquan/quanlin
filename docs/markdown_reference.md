@@ -1014,7 +1014,9 @@ and/or end of the divider.
 !!! tip
 
     Creating tables with hyphens and pipes can be tedious.
-    To speed up the process, try to use [csv table macro](#csv-tables).
+    To speed up the process, try using [csv table macro](#csv-tables) or
+    [Markdown tables generator][table_generator_link].
+      [table_generator_link]: https://www.tablesgenerator.com/markdown_tables
 
 ---
 
